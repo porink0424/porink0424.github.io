@@ -11,11 +11,9 @@
 ## Version
 
 ```bash
-~
 ❯ node --version
 v20.8.1
 
-~
 ❯ yarn --version
 1.22.19
 ```
@@ -27,3 +25,8 @@ Run the development server:
 ```bash
 yarn dev
 ```
+
+## TODO
+
+- internationalization
+- dark mode
