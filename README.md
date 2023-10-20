@@ -7,6 +7,8 @@
 - ESLint & Prettier
   - eslint-config-airbnb
 - Tailwind CSS
+- Mantine
+  - reference: [Usage with Next.js](https://mantine.dev/guides/next/)
 
 ## Version
 
