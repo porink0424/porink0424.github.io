@@ -9,6 +9,7 @@
 - Tailwind CSS
 - Mantine
   - reference: [Usage with Next.js](https://mantine.dev/guides/next/)
+  - [tabler-icons-react](https://tabler-icons-react.vercel.app/)
 
 ## Version
 
