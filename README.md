@@ -33,3 +33,5 @@ yarn dev
 
 - internationalization
 - dark mode
+- cssの!をできるだけ減らす
+- use clientをできるだけ減らす
