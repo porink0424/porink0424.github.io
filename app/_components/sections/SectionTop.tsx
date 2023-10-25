@@ -1,6 +1,7 @@
 import { Box, Overlay, Image, Group, Avatar, Title, Text, AspectRatio } from '@mantine/core'
+import React from 'react'
 
-export default function SectionTop() {
+function SectionTop() {
   return (
     <>
       <Box className='absolute top-0 left-0 w-full -z-10'>
@@ -25,3 +26,5 @@ export default function SectionTop() {
     </>
   )
 }
+
+export default React.memo(SectionTop)

@@ -1,6 +1,7 @@
 import { Language } from '@/app/_constants/language'
 import { SECTION_ABOUT } from '@/app/_contents/SectionAbout'
 import { Text, Title, Stack, List, ListItem, Timeline, TimelineItem, Box } from '@mantine/core'
+import React from 'react'
 import SnsIcons from '../SnsIcons'
 
 type Props = {
@@ -8,7 +9,7 @@ type Props = {
   sectionRef: React.RefObject<HTMLDivElement>
 }
 
-export default function SectionAbout({ language, sectionRef }: Props) {
+function SectionAbout({ language, sectionRef }: Props) {
   return (
     <Stack gap={48} ref={sectionRef} id='About'>
       <Title order={1} className='!text-5xl'>
@@ -68,3 +69,5 @@ export default function SectionAbout({ language, sectionRef }: Props) {
     </Stack>
   )
 }
+
+export default React.memo(SectionAbout)

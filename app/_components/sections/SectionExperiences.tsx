@@ -2,13 +2,14 @@ import { Language } from '@/app/_constants/language'
 import { SECTION_EXPERIENCES } from '@/app/_contents/SectionExperiences'
 import { parseText } from '@/app/_utils/parseText'
 import { Text, Title, Stack, Image, SimpleGrid, AspectRatio, Box, Paper } from '@mantine/core'
+import React from 'react'
 
 type Props = {
   language: Language
   sectionRef: React.RefObject<HTMLDivElement>
 }
 
-export default function SectionExperiences({ language, sectionRef }: Props) {
+function SectionExperiences({ language, sectionRef }: Props) {
   return (
     <Stack gap={48} ref={sectionRef} id='Experiences'>
       <Title order={1} className='!text-5xl'>
@@ -81,3 +82,5 @@ export default function SectionExperiences({ language, sectionRef }: Props) {
     </Stack>
   )
 }
+
+export default React.memo(SectionExperiences)

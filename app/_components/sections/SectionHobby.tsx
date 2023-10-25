@@ -9,13 +9,14 @@ import {
   AccordionControl,
   AccordionPanel,
 } from '@mantine/core'
+import React from 'react'
 
 type Props = {
   language: Language
   sectionRef: React.RefObject<HTMLDivElement>
 }
 
-export default function SectionHobby({ language, sectionRef }: Props) {
+function SectionHobby({ language, sectionRef }: Props) {
   return (
     <Stack gap={48} ref={sectionRef} id='Hobby'>
       <Title order={1} className='!text-5xl'>
@@ -40,3 +41,5 @@ export default function SectionHobby({ language, sectionRef }: Props) {
     </Stack>
   )
 }
+
+export default React.memo(SectionHobby)
