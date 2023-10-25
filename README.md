@@ -38,6 +38,7 @@ yarn dev
 - まじめにSSRを考える
   - "use client"をできるだけなくすなど
 - 英語の推敲
-- レスポンシブ
 - SSRでのi18n対応
 - colorの設定方法を見直す
+- mantineの `List` において、`list-disc` を指定したときの横の挙動がおかしい問題がありそう
+  - issuesに投げる？
