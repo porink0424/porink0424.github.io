@@ -6,7 +6,8 @@
   "rules": {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "react/no-array-index-key": "off"
   },
   "ignorePatterns": ["next.config.js", "postcss.config.js", "tailwind.config.js"]
 }
