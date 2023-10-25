@@ -30,15 +30,23 @@ Run the development server:
 yarn dev
 ```
 
+Build the app for production:
+
+```bash
+yarn build
+```
+
+and, output will be in `./out` directory.
+
 ## TODO
 
+- 内容、レスポンシブの推敲
 - dark mode 追加
 - cssの整理
   - importantをなくすなど
 - まじめにSSRを考える
   - "use client"をできるだけなくすなど
-- 英語の推敲
-- SSRでのi18n対応
+- SSRとしてのi18n対応
 - colorの設定方法を見直す
 - mantineの `List` において、`list-disc` を指定したときの横の挙動がおかしい問題がありそう
   - issuesに投げる？
