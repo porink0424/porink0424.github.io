@@ -32,10 +32,11 @@ yarn dev
 
 ## TODO
 
-- dark mode
-- cssの!をできるだけ減らす
-- use clientをできるだけ減らす
-- リンクを定数化する
+- dark mode 追加
+- cssの整理
+  - importantをなくすなど
+- まじめにSSRを考える
+  - "use client"をできるだけなくすなど
 - 英語の推敲
 - レスポンシブ
 - SSRでのi18n対応
