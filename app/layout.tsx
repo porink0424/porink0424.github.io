@@ -6,6 +6,7 @@ import { Noto_Sans_JP } from 'next/font/google'
 import Header from './_components/Header'
 import Footer from './_components/Footer'
 import Providers from './providers'
+import Menu from './_components/Menu'
 
 const notojp = Noto_Sans_JP({
   weight: ['400', '500', '600', '700'],
@@ -28,6 +29,7 @@ function PageLayout({ children }: { children: React.ReactNode }) {
         </Box>
       </AppShellMain>
       <Footer />
+      <Menu />
     </AppShell>
   )
 }
