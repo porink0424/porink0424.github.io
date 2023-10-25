@@ -42,9 +42,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta property='og:site_name' content="Daichi Kato's Portfolio" />
         <meta property='og:title' content="Daichi Kato's Portfolio" />
-        <meta property='og:url' content='https://porink0424.github.io/portfolio/' />
+        <meta property='og:url' content='https://porink0424.github.io/' />
         <meta property='og:type' content='website' />
-        <meta property='og:image' content='https://porink0424.github.io/portfolio/og-image.png' />
+        <meta property='og:image' content='https://porink0424.github.io/og-image.png' />
         <meta name='twitter:card' content='summary_large_image' />
       </head>
       <body className={notojp.className}>
