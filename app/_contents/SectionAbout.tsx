@@ -17,6 +17,10 @@ export const SECTION_ABOUT = {
   history: {
     [LANGUAGES.EN]: [
       {
+        title: 'Born in Miyagi, Japan',
+        period: '2001/02',
+      },
+      {
         title: 'Sendai Daini High School, Miyagi, Japan',
         period: '2016/04 ~ 2019/03',
       },
@@ -31,6 +35,10 @@ export const SECTION_ABOUT = {
       },
     ],
     [LANGUAGES.JP]: [
+      {
+        title: '宮城県で生まれる',
+        period: '2001/02',
+      },
       {
         title: '宮城県 仙台第二高等学校',
         period: '2016/04 ~ 2019/03',
