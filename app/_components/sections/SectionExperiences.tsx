@@ -16,7 +16,7 @@ function SectionExperiences({ language, sectionRef }: Props) {
         Experiences
       </Title>
 
-      <SimpleGrid cols={2} spacing={8}>
+      <SimpleGrid cols={{ base: 1, sm: 2 }} spacing={8}>
         {SECTION_EXPERIENCES.main[language].map(({ title, content }, index) => (
           <Stack key={index} gap={8}>
             <AspectRatio ratio={16 / 9}>
@@ -60,7 +60,7 @@ function SectionExperiences({ language, sectionRef }: Props) {
           data: SECTION_EXPERIENCES.educationalProjects[language],
         },
         {
-          subSection: 'Hackathon Projects',
+          subSection: 'Hackathon',
           data: SECTION_EXPERIENCES.hackathon[language],
         },
       ].map(({ subSection, data }, subSectionIndex) => (

@@ -4,9 +4,9 @@ import { LANGUAGES } from '../_constants/language'
 export const SECTION_ABOUT = {
   profile: {
     [LANGUAGES.EN]: [
-      'Name : Daichi Kato (加藤 大地)',
-      'Affiliation : Department of Computer Science, Graduate School of Information Science and Technology, The University of Tokyo, Master 1st',
-      'Major : Natural Language Processing (NLP)',
+      '**Name** : Daichi Kato (加藤 大地)',
+      '**Affiliation** : Department of Computer Science, Graduate School of Information Science and Technology, The University of Tokyo, Master 1st',
+      '**Major** : Natural Language Processing (NLP)',
     ],
     [LANGUAGES.JP]: [
       '名前 : 加藤 大地 (Daichi Kato)',
