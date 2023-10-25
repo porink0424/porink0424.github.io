@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Group, Space, Stack, Text } from '@mantine/core'
+import { Box, Flex, Space, Stack, Text } from '@mantine/core'
 import { useElementSize } from '@mantine/hooks'
 import SnsIcons from './SnsIcons'
 
@@ -11,15 +11,15 @@ export default function Footer() {
     <>
       <Box ref={ref} w='100%' pos='fixed' bottom={0} className='bg-gray-200'>
         <Stack align='center' py={120}>
-          <Group gap={48} mb={16}>
+          <Flex className='flex-col sm:flex-row items-center gap-2 sm:gap-12 mb-4'>
             {['About', 'Experiences', 'Research', 'Hobby'].map((text, index) => (
               <Text fw={600} component='a' href={`#${text}`} size='lg' key={index}>
                 {text}
               </Text>
             ))}
-          </Group>
+          </Flex>
 
-          <Box mb={32} ml={16}>
+          <Box mb={32}>
             <SnsIcons />
           </Box>
 

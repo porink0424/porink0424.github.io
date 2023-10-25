@@ -1,4 +1,6 @@
-import { Box, Overlay, Image, Group, Avatar, Title, Text, AspectRatio } from '@mantine/core'
+'use client'
+
+import { Box, Overlay, Image, Avatar, Title, Text, AspectRatio } from '@mantine/core'
 import React from 'react'
 
 function SectionTop() {
@@ -13,15 +15,21 @@ function SectionTop() {
       </Box>
 
       <AspectRatio ratio={3 / 2}>
-        <Group gap={28} h='100%' justify='space-between' align='center' m='auto'>
-          <Avatar size={150} src='/top.jpg' alt="Daichi Kato's Icon" />
+        <Box className='h-full flex justify-between items-center m-auto !flex-col sm:!flex-row'>
+          <Avatar
+            src='/top.jpg'
+            alt="Daichi Kato's Icon"
+            className='!w-[100px] !h-[100px] sm:!w-[150px] sm:!h-[150px] mb-2 sm:mb-0 sm:!mr-7'
+          />
           <Box>
-            <Title order={1} className='!text-5xl'>
+            <Title order={1} className='!text-2xl sm:!text-5xl text-center sm:text-left'>
               Daichi Kato
             </Title>
-            <Text size='md'>M1 Student at The University of Tokyo, Japan</Text>
+            <Text className='!text-sm sm:!text-base text-center sm:text-left'>
+              M1 Student at The University of Tokyo, Japan
+            </Text>
           </Box>
-        </Group>
+        </Box>
       </AspectRatio>
     </>
   )

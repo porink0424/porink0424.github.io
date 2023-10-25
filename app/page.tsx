@@ -1,6 +1,6 @@
 'use client'
 
-import { Space } from '@mantine/core'
+import { Box, Space } from '@mantine/core'
 import useScrollSpy from 'react-use-scrollspy'
 import { useEffect, useRef } from 'react'
 import { useViewportSize } from '@mantine/hooks'
@@ -34,7 +34,7 @@ export default function Home() {
   }, [activeSection, setActiveSection])
 
   return (
-    <>
+    <Box maw={720} className='!mx-[2%] md:!mx-auto'>
       <SectionTop />
       <Space h={60} />
       <SectionAbout sectionRef={sectionRefs[0]} language={language} />
@@ -45,6 +45,6 @@ export default function Home() {
       <Space h={100} />
       <SectionHobby sectionRef={sectionRefs[3]} language={language} />
       <Space h={100} />
-    </>
+    </Box>
   )
 }

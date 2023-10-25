@@ -2,6 +2,8 @@ import { Language } from '@/app/_constants/language'
 import { SECTION_ABOUT } from '@/app/_contents/SectionAbout'
 import { Text, Title, Stack, List, ListItem, Timeline, TimelineItem, Box } from '@mantine/core'
 import React from 'react'
+import { Point } from 'tabler-icons-react'
+import { parseText } from '@/app/_utils/parseText'
 import SnsIcons from '../SnsIcons'
 
 type Props = {
@@ -21,9 +23,11 @@ function SectionAbout({ language, sectionRef }: Props) {
           Profile
         </Title>
 
-        <List withPadding className='list-disc'>
+        <List withPadding>
           {SECTION_ABOUT.profile[language].map((text, index) => (
-            <ListItem key={index}>{text}</ListItem>
+            <ListItem icon={<Point />} key={index} className='flex items-center'>
+              {parseText(text)}
+            </ListItem>
           ))}
         </List>
 
