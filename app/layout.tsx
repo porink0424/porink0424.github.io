@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import type { Metadata } from 'next'
 import './globals.css'
 import '@mantine/core/styles.css'
@@ -40,7 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta charSet='utf-8' />
         <ColorSchemeScript />
       </head>
-      <head prefix='og: https://ogp.me/ns#'>
+      <head>
         <meta property='og:site_name' content="Daichi Kato's Portfolio" />
         <meta property='og:title' content="Daichi Kato's Portfolio" />
         <meta property='og:url' content='https://porink0424.github.io/portfolio/' />
