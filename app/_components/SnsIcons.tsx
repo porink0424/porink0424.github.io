@@ -1,21 +1,22 @@
 import { ActionIcon, Group, Image } from '@mantine/core'
+import { LINK } from '../_constants/link'
 
 export default function SnsIcons() {
   return (
     <Group gap={12}>
       {[
         {
-          link: 'https://github.com/porink0424',
+          link: LINK.GITHUB,
           src: '/github.png',
           alt: 'github icon',
         },
         {
-          link: 'https://qiita.com/porink0424',
+          link: LINK.QIITA,
           src: '/qiita.png',
           alt: 'qiita icon',
         },
         {
-          link: 'https://twitter.com/daichi_myg2120',
+          link: LINK.TWITTER,
           src: '/x.png',
           alt: 'x icon',
         },

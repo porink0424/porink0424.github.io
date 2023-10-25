@@ -1,35 +1,36 @@
 import { LANGUAGES } from '../_constants/language'
+import { LINK } from '../_constants/link'
 
 export const SECTION_EXPERIENCES = {
   main: {
     common: [
       {
-        link: 'https://tech.preferred.jp/ja/blog/multi-camera-settings-application-for-4d-scan/',
+        link: LINK.PFN_BLOG,
         src: '/pfn.jpg',
         alt: 'pfn internship blog',
       },
       {
-        link: 'https://metalife.co.jp/',
+        link: LINK.METALIFE,
         src: '/metalife.jpg',
         alt: 'metalife',
       },
       {
-        link: 'https://github.com/porink0424/reversi-bot',
+        link: LINK.REVERSI,
         src: '/reversi.jpg',
         alt: 'reversi',
       },
       {
-        link: 'https://github.com/porink0424/py-tris',
+        link: LINK.PYTRIS,
         src: '/pytris.png',
         alt: 'pytris',
       },
       {
-        link: 'https://manabitimes.jp/',
+        link: LINK.MANABITIMES,
         src: '/manabitimes.jpg',
         alt: 'manabitimes',
       },
       {
-        link: 'https://github.com/porink0424/pycaml',
+        link: LINK.PYCAML,
         src: '/pycaml.jpg',
         alt: 'pycaml',
       },
@@ -102,8 +103,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: 'Summer Internship at Preferred Networks Inc.',
         period: '2023/08 ~ 2023/09',
-        content:
-          'I worked on a project internship for about two months under the theme of "Web Application Development for Computer Vision." [(Blog Post)](https://tech.preferred.jp/en/blog/multi-camera-settings-application-for-4d-scan/)',
+        content: `I worked on a project internship for about two months under the theme of "Web Application Development for Computer Vision." [(Blog Post)](${LINK.PFN_BLOG})`,
       },
       {
         title: 'Internship at DeNA Co., Ltd.',
@@ -119,8 +119,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: 'Full Stack Engineer at Bend Inc.',
         period: '2020/12 ~ Present',
-        content:
-          'My primary focus is on front-end development. I am also deeply involved in various tasks, including back-end and server management.\n・Development of the game-like 2D communication web app, "[MetaLife](https://metalife.co.jp/)"\n・Running "[Shikaku Times](https://shikakutimes.jp/)," "[Manabi Times](https://manabitimes.jp/)"',
+        content: `My primary focus is on front-end development. I am also deeply involved in various tasks, including back-end and server management.\n・Development of the game-like 2D communication web app, "[MetaLife](${LINK.METALIFE})"\n・Running "[Shikaku Times](${LINK.SHIKAKUTIMES})," "[Manabi Times](${LINK.MANABITIMES})"`,
       },
       {
         title: 'Front-End Engineer at teamLab',
@@ -133,8 +132,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: '株式会社Preferred Networks 夏季インターン',
         period: '2023/08 ~ 2023/09',
-        content:
-          '「コンピュータビジョンのためのウェブアプリケーション開発」というテーマで、約二ヶ月のプロジェクトインターンを行いました[(ブログ記事)](https://tech.preferred.jp/ja/blog/multi-camera-settings-application-for-4d-scan/)。',
+        content: `「コンピュータビジョンのためのウェブアプリケーション開発」というテーマで、約二ヶ月のプロジェクトインターンを行いました[(ブログ記事)](${LINK.PFN_BLOG})。`,
       },
       {
         title: '株式会社ディー・エヌ・エー 夏季短期インターン',
@@ -149,8 +147,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: '株式会社ベンド フルスタックエンジニア',
         period: '2020/12 ~ 現在',
-        content:
-          'フロントエンドを中心に、バックエンド・サーバー等広く業務に携わっています。\n・ゲームライクな2DコミュニケーションWebアプリ「[MetaLife](https://metalife.co.jp/)」の開発\n・「[資格Times](https://shikakutimes.jp/)」「[学びTimes](https://manabitimes.jp/)」の運用',
+        content: `フロントエンドを中心に、バックエンド・サーバー等広く業務に携わっています。\n・ゲームライクな2DコミュニケーションWebアプリ「[MetaLife](${LINK.METALIFE})」の開発\n・「[資格Times](${LINK.SHIKAKUTIMES})」「[学びTimes](${LINK.MANABITIMES})」の運用`,
       },
       {
         title: 'チームラボ株式会社 フロントエンドエンジニア',
@@ -181,40 +178,34 @@ export const SECTION_EXPERIENCES = {
       {
         title: 'Puyo Puyo Tetris AI',
         period: '',
-        content:
-          'I created an AI that runs in the "Puyo Puyo Tetris" game with my university classmates. It works as follows: Information extraction by reading memory → Movement decision by rule-based algorithm → Input via a virtual controller [(Source Code)](https://github.com/porink0424/py-tris)',
+        content: `I created an AI that runs in the "Puyo Puyo Tetris" game with my university classmates. It works as follows: Information extraction by reading memory → Movement decision by rule-based algorithm → Input via a virtual controller [(Source Code)](${LINK.PYTRIS})`,
       },
       {
         title: 'Reversi AI',
         period: '',
-        content:
-          'Logic is implemented in Rust and WebAssembly, UI is implemented in React & Three.js. Although I am a very biginner in Reversi, I looked for established tactics and rules of thumb, etc., and realized them as a bot. You can play the DEMO in [this page](https://porink0424.github.io/reversi-bot-front/). [(Source Code)](https://github.com/porink0424/reversi-bot)',
+        content: `Logic is implemented in Rust and WebAssembly, UI is implemented in React & Three.js. Although I am a very biginner in Reversi, I looked for established tactics and rules of thumb, etc., and realized them as a bot. You can play the DEMO [here](${LINK.REVERSI_DEMO}). [(Source Code)](${LINK.REVERSI})`,
       },
       {
         title: 'Mini-Compiler for the subset language of C-lang (WIP)',
         period: '',
-        content:
-          "Along with Rui Ueyama's article, I am in the process of implementing a compiler in Rust that compiles a subset language of C-lang into a RISC-V based assembly. [(Source Code)](https://github.com/porink0424/dcc)",
+        content: `Along with Rui Ueyama's article, I am in the process of implementing a compiler in Rust that compiles a subset language of C-lang into a RISC-V based assembly. [(Source Code)](${LINK.DCC})`,
       },
     ],
     [LANGUAGES.JP]: [
       {
         title: 'ぷよぷよテトリスAI',
         period: '',
-        content:
-          '大学の同期と、ゲームソフト「ぷよぷよテトリス」内で動く、AIを作成しました。メモリ読み込みによる情報抽出→ルールベースのアルゴリズムによる動きの決定→仮想コントローラーから入力という流れで動きます。[(ソースコード)](https://github.com/porink0424/py-tris)',
+        content: `大学の同期と、ゲームソフト「ぷよぷよテトリス」内で動く、AIを作成しました。メモリ読み込みによる情報抽出→ルールベースのアルゴリズムによる動きの決定→仮想コントローラーから入力という流れで動きます。[(ソースコード)](${LINK.PYTRIS})`,
       },
       {
         title: 'リバーシAI',
         period: '',
-        content:
-          'ロジックの部分がRust and WebAssembly、UIの部分がReact & Three.jsで動く対戦型リバーシAIです。自分はオセロ初心者ですが、定石や経験則等を調べて、Botとして実現しました。[こちらのページ](https://porink0424.github.io/reversi-bot-front/)でDEMOをいじることができます。[(ソースコード)](https://github.com/porink0424/reversi-bot)',
+        content: `ロジックの部分がRust and WebAssembly、UIの部分がReact & Three.jsで動く対戦型リバーシAIです。自分はオセロ初心者ですが、定石や経験則等を調べて、Botとして実現しました。[こちらのページ](${LINK.REVERSI_DEMO})でDEMOをいじることができます。[(ソースコード)](${LINK.REVERSI})`,
       },
       {
         title: 'C言語のサブセット用のミニコンパイラ (WIP)',
         period: '',
-        content:
-          'Rui Ueyamaさんの記事に沿って、C言語のサブセット言語をRISC-Vベースのアセンブリにコンパイルするコンパイラを、Rustで実装中です。[(ソースコード)](https://github.com/porink0424/dcc)',
+        content: `Rui Ueyamaさんの記事に沿って、C言語のサブセット言語をRISC-Vベースのアセンブリにコンパイルするコンパイラを、Rustで実装中です。[(ソースコード)](${LINK.DCC})`,
       },
     ],
   },
@@ -223,16 +214,14 @@ export const SECTION_EXPERIENCES = {
       {
         title: 'Compiler for the subset language of OCaml',
         period: '',
-        content:
-          'In the "CPU Experiment", in which a team of four people creates a CPU architecture to run a given program, in my role as a compiler developer, I built a compiler for the subset language of OCaml. I implemented this in Python and OCaml. [(Source Code)](https://github.com/porink0424/pycaml)',
+        content: `In the "CPU Experiment", in which a team of four people creates a CPU architecture to run a given program, in my role as a compiler developer, I built a compiler for the subset language of OCaml. I implemented this in Python and OCaml. [(Source Code)](${LINK.PYCAML})`,
       },
     ],
     [LANGUAGES.JP]: [
       {
         title: 'OCamlのサブセット用のコンパイラ',
         period: '',
-        content:
-          'チーム4人で課題プログラムを動かすCPUアーキテクチャを作る「CPU実験」の中で、コンパイラ係として、OCamlのサブセット言語のコンパイラを作成しました。PythonとOCamlで実装しました。[(ソースコード)](https://github.com/porink0424/pycaml)',
+        content: `チーム4人で課題プログラムを動かすCPUアーキテクチャを作る「CPU実験」の中で、コンパイラ係として、OCamlのサブセット言語のコンパイラを作成しました。PythonとOCamlで実装しました。[(ソースコード)](${LINK.PYCAML})`,
       },
     ],
   },
@@ -242,28 +231,24 @@ export const SECTION_EXPERIENCES = {
         title:
           "The 18th Symposium of Young Researcher Association for NLP Studies (YANS) 2023 (Excellence Award & Jury's Special Award Winner)",
         period: '2023/08',
-        content:
-          "At YANS2023, we participated in a hackathon to develop a web application using the OpenAI API. We won two awards, the Excellence Award and the Jury's Special Award. [(link)](https://twitter.com/yans_official/status/1697173190198587895)",
+        content: `At YANS2023, we participated in a hackathon to develop a web application using the OpenAI API. We won two awards, the Excellence Award and the Jury's Special Award. [(link)](${LINK.YANS_2023_LINK})`,
       },
       {
         title: 'Benesse EdTech Hackathon (Audience Award Winner)',
         period: '2023/07',
-        content:
-          'With the theme of "an app that promotes next-generation learning for children," we consistently experienced from planning to development in two days. We used Flutteer to develop this app. We won the Audience Award as voted by the participants. [(Source Code)](https://github.com/porink0424/benesse_hackathon)',
+        content: `With the theme of "an app that promotes next-generation learning for children," we consistently experienced from planning to development in two days. We used Flutteer to develop this app. We won the Audience Award as voted by the participants. [(Source Code)](${LINK.BENESSE})`,
       },
     ],
     [LANGUAGES.JP]: [
       {
         title: 'NLP若手の会(YANS)2023ハッカソン（優秀賞・審査員特別賞）',
         period: '2023/08',
-        content:
-          'YANS2023において、OpenAI APIを利用したWebアプリを開発するハッカソンに参加しました。優秀賞、審査員特別賞の二冠を達成しました。[(リンク)](https://twitter.com/yans_official/status/1697173190198587895)',
+        content: `YANS2023において、OpenAI APIを利用したWebアプリを開発するハッカソンに参加しました。優秀賞、審査員特別賞の二冠を達成しました。[(リンク)](${LINK.YANS_2023_LINK})`,
       },
       {
         title: 'ベネッセEdTechハッカソン（オーディエンス賞）',
         period: '2023/07',
-        content:
-          '『中高生にとって、次世代の学習を促進するようなアプリ』をテーマに、Flutterを用いて「企画」から「開発」まで2日間で行いました。参加者の投票により、オーディエンス賞を受賞しました。[(ソースコード)](https://github.com/porink0424/benesse_hackathon)',
+        content: `『中高生にとって、次世代の学習を促進するようなアプリ』をテーマに、Flutterを用いて「企画」から「開発」まで2日間で行いました。参加者の投票により、オーディエンス賞を受賞しました。[(ソースコード)](${LINK.BENESSE})`,
       },
     ],
   },
