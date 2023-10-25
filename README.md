@@ -5,13 +5,14 @@
 - Next.js
 - TypeScript
 - ESLint & Prettier
-  - eslint-config-airbnb
+  - base: [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 - Tailwind CSS
-- Mantine
-  - reference: [Usage with Next.js](https://mantine.dev/guides/next/)
-  - [tabler-icons-react](https://tabler-icons-react.vercel.app/)
+- [Mantine](https://mantine.dev/)
+- [tabler-icons-react](https://tabler-icons-react.vercel.app/)
+- [Jotai](https://jotai.org/)
+- [react-use-scrollspy](https://github.com/Purii/react-use-scrollspy)
 
-## Version
+## Pre-requirements
 
 ```bash
 ❯ node --version
@@ -36,5 +37,6 @@ yarn dev
 - use clientをできるだけ減らす
 - リンクを定数化する
 - 英語の推敲
+- レスポンシブ
 - SSRでのi18n対応
-- OGP設定
+- colorの設定方法を見直す
