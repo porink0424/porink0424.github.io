@@ -31,7 +31,10 @@ yarn dev
 
 ## TODO
 
-- internationalization
 - dark mode
 - cssの!をできるだけ減らす
 - use clientをできるだけ減らす
+- リンクを定数化する
+- 英語の推敲
+- SSRでのi18n対応
+- OGP設定
