@@ -69,7 +69,7 @@ export default function SectionExperiences({ language, sectionRef }: Props) {
           </Title>
           {data.map(({ title, period, content }, index) => (
             <Paper key={index} shadow='md' p='md' withBorder>
-              <Title order={4}>{title}</Title>
+              <Title order={5}>{title}</Title>
               <Text size='sm' c='dimmed' mb={`${content.length > 0 ? 'md' : ''}`}>
                 {period}
               </Text>
