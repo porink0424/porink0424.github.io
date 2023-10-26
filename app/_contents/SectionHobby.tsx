@@ -8,20 +8,20 @@ export const SECTION_HOBBY = {
       {
         title: 'Games, Anime, Manga',
         content:
-          'Games are always a part of my life. I especially like the Dragon Quest series. My favorite is Dragon Quest 11. Also, I recently got addicted to Tetris. When I\'m not thinking about anything, Tetris pieces start spinning in my head. My love of Tetris led me to create a Tetris AI, but I haven\'t been able to make it better than myself yet.\n\nAs for anime, I\'m more of a person who watches the same anime over and over again than someone who watches a lot of different anime. I often get hooked on an anime and read the original work before the anime is finished. My favorite works from the past are "Dragon Ball," "Attack on Titan," and "Assassination Classroom." As for relatively recent(?) works, I like "Dr. STONE" and "Kaguya-sama: Love Is War."',
+          'Games are always a part of my life. I especially like the Dragon Quest series. My favorite is Dragon Quest 11. Also, I recently got addicted to Tetris. Tetris pieces start spinning in my head when I\'m not thinking about anything. My love of Tetris led me to create a Tetris AI, but I have yet to be able to make it better than myself.\n\nAs for anime, I\'m more of a person who watches the same anime repeatedly than someone who cares a lot about different anime. I often get hooked on an anime and read the original work before the anime is finished. My favorite works from the past are "Dragon Ball," "Attack on Titan," and "Assassination Classroom." As for relatively recent(?) works, I like "Dr. STONE" and "Kaguya-sama: Love Is War."',
       },
       {
         title: 'Physics',
-        content: `My favorite subject in high school was physics. I was fascinated by the fact that the equations that form the basis for predicting natural phenomena in this world can be expressed in a very concise way using mathematics (e.g., Newton's "equation of motion" and Maxwell's "equation of electromagnetism").\n\nAfter I entered university, I continue to read physics books as a hobby and listen to lectures whenever I have the chance. My favorite is "general theory of relativity." When I was an undergraduate, I was a writer for high school and university physics (I was an ["Introduction to Theoretical Physics for High School Students"](${LINK.MANABITIMES_PHYSICS}) founder). I hope to resume writing articles on physics again someday.`,
+        content: `My favorite subject in high school was physics. I was fascinated by the fact that the equations that form the basis for predicting natural phenomena in this world can be expressed in a very concise way using mathematics (e.g., Newton's "equation of motion" and Maxwell's "equation of electromagnetism").\n\nAfter entering university, I continue to read physics books as a hobby and listen to lectures whenever possible. My favorite is "general theory of relativity." When I was an undergraduate, I was a writer for high school and university physics (I was an ["Introduction to Theoretical Physics for High School Students"](${LINK.MANABITIMES_PHYSICS}) founder). I hope to write articles on physics again someday.`,
       },
       {
         title: 'Handball, Soccer',
-        content: `I played soccer in junior high school and handball in high school (I participated in national tournament in high school [(List of participating schools)](${LINK.HANDBALL_LINK})). I like all kinds of ball games, both watching and playing. Japanese soccer has been very exciting in recent years, with young players performing well. As a fan, I'm very happy about this. I support Vegalta Sendai in the J-League and Brighton & Hove Albion in the Premier League.\n\nRecently, I've been going to the gym as much as possible because I don't have many opportunities to play some sports anymore.`,
+        content: `I played soccer in junior high school and handball in high school (I participated in the national tournament in high school [(List of participating schools)](${LINK.HANDBALL_LINK})). I like all kinds of ball games, both watching and playing. Japanese soccer has been very exciting recently, with young players performing well. As a fan, I'm pleased about this. I support Vegalta Sendai in the J-League and Brighton & Hove Albion in the Premier League.\n\nRecently, I've been going to the gym as much as possible because I no longer have many opportunities to play sports.`,
       },
       {
         title: 'Going around for ramen',
         content:
-          'I like to eat ramen. I especially like Jiro-style ramen. My goal for the time being is to conquer all the Jiro-style ramen shops in Tokyo.',
+          'I like to eat ramen. I especially like Jiro-style ramen. My goal for now is to conquer all the Jiro-style ramen shops in Tokyo.',
       },
     ],
     [LANGUAGES.JP]: [

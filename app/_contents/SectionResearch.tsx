@@ -7,8 +7,8 @@ export const SECTION_RESEARCH = {
       {
         title: 'Emergent Language',
         contents: [
-          'I am researching the field of "Emergent Language," where I analyze artificially generated languages by having agents composed of neural networks talk to each other.',
-          'I plan to use agents that mimic the way how humans understand languages to create something like the grammatical structure of natural languages in "Emergent Language."',
+          'I am researching "Emergent Language" field, where I analyze artificially generated languages by having agents composed of neural networks talk to each other.',
+          'I plan to use agents that mimic how humans understand languages to create something like the grammatical structure of natural languages in "Emergent Language."',
         ],
       },
     ],

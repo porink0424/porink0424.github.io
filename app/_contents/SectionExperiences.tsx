@@ -49,7 +49,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: 'Reversi AI Scratched in Rust & Three.js',
         content:
-          'Logic is implemented in Rust and WebAssembly, UI is implemented in React & Three.js. Quite strong.',
+          'Logic is implemented in Rust and WebAssembly, and UI in React & Three.js. Quite strong.',
       },
       {
         title: 'Puyo Puyo Tetris AI Scratched in Python "py-tris"',
@@ -109,7 +109,7 @@ export const SECTION_EXPERIENCES = {
         title: 'Internship at DeNA Co., Ltd.',
         period: '2023/09',
         content:
-          'I participated in a three-day short-term summer internship where I worked in a team to tackle technical challenges.',
+          'I participated in a three-day short-term summer internship, working in a team to tackle technical challenges.',
       },
       {
         title: 'ML Engineer at Matsuo Institute Inc.',
@@ -178,17 +178,17 @@ export const SECTION_EXPERIENCES = {
       {
         title: 'Puyo Puyo Tetris AI',
         period: '',
-        content: `I created an AI that runs in the "Puyo Puyo Tetris" game with my university classmates. It works as follows: Information extraction by reading memory → Movement decision by rule-based algorithm → Input via a virtual controller [(Source Code)](${LINK.PYTRIS})`,
+        content: `I created an AI that runs in the "Puyo Puyo Tetris" game with my university classmates. It works as follows: Information extraction by reading memory → Movement decision by rule-based algorithm → Input via a virtual controller. [(Source Code)](${LINK.PYTRIS})`,
       },
       {
         title: 'Reversi AI',
         period: '',
-        content: `Logic is implemented in Rust and WebAssembly, UI is implemented in React & Three.js. Although I am a very biginner in Reversi, I looked for established tactics and rules of thumb, etc., and realized them as a bot. You can play the DEMO [here](${LINK.REVERSI_DEMO}). [(Source Code)](${LINK.REVERSI})`,
+        content: `Logic is implemented in Rust and WebAssembly, and UI in React & Three.js. Although I am a beginner in Reversi, I looked for established tactics, rules of thumb, etc., and realized them as a bot. You can play the DEMO [here](${LINK.REVERSI_DEMO}). [(Source Code)](${LINK.REVERSI})`,
       },
       {
         title: 'Mini-Compiler for the subset language of C-lang (WIP)',
         period: '',
-        content: `Along with Rui Ueyama's article, I am in the process of implementing a compiler in Rust that compiles a subset language of C-lang into a RISC-V based assembly. [(Source Code)](${LINK.DCC})`,
+        content: `Along with Rui Ueyama's article, I am implementing a compiler in Rust that compiles a subset language of C-lang into a RISC-V-based assembly. [(Source Code)](${LINK.DCC})`,
       },
     ],
     [LANGUAGES.JP]: [
@@ -214,7 +214,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: 'Compiler for the subset language of OCaml',
         period: '',
-        content: `In the "CPU Experiment", in which a team of four people creates a CPU architecture to run a given program, in my role as a compiler developer, I built a compiler for the subset language of OCaml. I implemented this in Python and OCaml. [(Source Code)](${LINK.PYCAML})`,
+        content: `In the "CPU Experiment," in which a team of four people creates a CPU architecture to run a given program, in my role as a compiler developer, I built a compiler for the subset language of OCaml. I implemented this in Python and OCaml. [(Source Code)](${LINK.PYCAML})`,
       },
     ],
     [LANGUAGES.JP]: [
@@ -236,7 +236,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: 'Benesse EdTech Hackathon (Audience Award Winner)',
         period: '2023/07',
-        content: `With the theme of "an app that promotes next-generation learning for children," we consistently experienced from planning to development in two days. We used Flutteer to develop this app. We won the Audience Award as voted by the participants. [(Source Code)](${LINK.BENESSE})`,
+        content: `With the theme of "an app that promotes next-generation learning for children," we consistently experienced from planning to development in two days. We used Flutter to develop this app. We won the Audience Award as voted by the participants. [(Source Code)](${LINK.BENESSE})`,
       },
     ],
     [LANGUAGES.JP]: [
