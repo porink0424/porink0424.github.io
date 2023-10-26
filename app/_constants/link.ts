@@ -3,7 +3,7 @@ export const LINK = {
   QIITA: 'https://qiita.com/porink0424',
   TWITTER: 'https://twitter.com/daichi_myg2120',
   PFN_BLOG: 'https://tech.preferred.jp/ja/blog/multi-camera-settings-application-for-4d-scan/',
-  METALIFE: 'https://metalife.jp/',
+  METALIFE: 'https://metalife.co.jp/',
   REVERSI: 'https://github.com/porink0424/reversi-bot',
   REVERSI_DEMO: 'https://porink0424.github.io/reversi-bot-front/',
   PYTRIS: 'https://github.com/porink0424/py-tris',
