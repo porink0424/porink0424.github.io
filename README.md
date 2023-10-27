@@ -48,5 +48,3 @@ and, output will be in `./out` directory.
   - "use client"をできるだけなくすなど
 - SSRとしてのi18n対応
 - colorの設定方法を見直す
-- mantineの `List` において、`list-disc` を指定したときの横の挙動がおかしい問題がありそう
-  - issuesに投げる？
