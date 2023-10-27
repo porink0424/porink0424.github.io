@@ -40,10 +40,10 @@ and, output will be in `./out` directory.
 
 ## TODO
 
-- 内容、レスポンシブの推敲
 - dark mode 追加
 - cssの整理
   - importantをなくすなど
+- font変更？
 - まじめにSSRを考える
   - "use client"をできるだけなくすなど
 - SSRとしてのi18n対応
