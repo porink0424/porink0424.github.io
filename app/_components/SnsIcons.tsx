@@ -1,7 +1,8 @@
 import { ActionIcon, Group, Image } from '@mantine/core'
+import React from 'react'
 import { LINK } from '../_constants/link'
 
-export default function SnsIcons() {
+function SnsIcons() {
   return (
     <Group gap={12}>
       {[
@@ -28,3 +29,5 @@ export default function SnsIcons() {
     </Group>
   )
 }
+
+export default React.memo(SnsIcons)
