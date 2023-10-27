@@ -2,17 +2,10 @@ import type { Metadata } from 'next'
 import './globals.css'
 import '@mantine/core/styles.css'
 import { AppShell, AppShellMain, ColorSchemeScript, MantineProvider } from '@mantine/core'
-import { Noto_Sans_JP } from 'next/font/google'
 import Header from './_components/Header'
 import Footer from './_components/Footer'
 import Providers from './providers'
 import Menu from './_components/Menu'
-
-const notojp = Noto_Sans_JP({
-  weight: ['400', '500', '600', '700'],
-  display: 'swap',
-  subsets: ['latin'],
-})
 
 export const metadata: Metadata = {
   title: 'Daichi Kato',
@@ -45,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property='og:image' content='https://porink0424.github.io/og-image.png' />
         <meta name='twitter:card' content='summary_large_image' />
       </head>
-      <body className={notojp.className}>
+      <body>
         <Providers>
           <MantineProvider>
             <PageLayout>{children}</PageLayout>
