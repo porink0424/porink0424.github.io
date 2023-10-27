@@ -212,12 +212,22 @@ export const SECTION_EXPERIENCES = {
   educationalProjects: {
     [LANGUAGES.EN]: [
       {
+        title: 'Teaching Assistant for "Complexity Theory Exercise"',
+        period: '2023/10 ~ Present',
+        content: '',
+      },
+      {
         title: 'Compiler for the subset language of OCaml',
         period: '',
         content: `In the "CPU Experiment," in which a team of four people creates a CPU architecture to run a given program, in my role as a compiler developer, I built a compiler for the subset language of OCaml. I implemented this in Python and OCaml. [(Source Code)](${LINK.PYCAML})`,
       },
     ],
     [LANGUAGES.JP]: [
+      {
+        title: '計算量理論演習のTA',
+        period: '2023/10 ~ 現在',
+        content: '',
+      },
       {
         title: 'OCamlのサブセット用のコンパイラ',
         period: '',
