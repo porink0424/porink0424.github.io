@@ -18,7 +18,7 @@ function ScrollToTop() {
           scrollTo({ y: 0 })
         }}
       >
-        <ActionIcon variant='gradient' size='xl' gradient={{ from: 'blue', to: 'cyan', deg: 90 }}>
+        <ActionIcon variant='filled' size='xl'>
           <ArrowBigTop />
         </ActionIcon>
       </Box>
