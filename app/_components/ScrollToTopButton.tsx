@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, ActionIcon } from '@mantine/core'
+import { ActionIcon } from '@mantine/core'
 import { useWindowScroll } from '@mantine/hooks'
 import React, { useMemo } from 'react'
 import { ArrowBigTop } from 'tabler-icons-react'
@@ -11,17 +11,17 @@ function ScrollToTop() {
   return useMemo(() => {
     if (scroll.y === 0) return null
     return (
-      <Box
-        className='fixed bottom-6 right-6 z-50'
-        component='button'
+      <ActionIcon
+        variant='filled'
+        size='xl'
+        color='blue'
+        className='!fixed bottom-6 right-6 z-50'
         onClick={() => {
           scrollTo({ y: 0 })
         }}
       >
-        <ActionIcon variant='filled' size='xl' color='blue'>
-          <ArrowBigTop />
-        </ActionIcon>
-      </Box>
+        <ArrowBigTop />
+      </ActionIcon>
     )
   }, [scroll, scrollTo])
 }
