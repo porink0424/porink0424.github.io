@@ -18,7 +18,7 @@ function ScrollToTop() {
           scrollTo({ y: 0 })
         }}
       >
-        <ActionIcon variant='filled' size='xl'>
+        <ActionIcon variant='filled' size='xl' color='blue'>
           <ArrowBigTop />
         </ActionIcon>
       </Box>
