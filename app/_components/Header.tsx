@@ -17,14 +17,21 @@ import {
 } from '@mantine/core'
 import { useAtom, useAtomValue } from 'jotai'
 import { Language as LanguageIcon } from 'tabler-icons-react'
-import { useMediaQuery } from '@mantine/hooks'
+import { useMediaQuery, useWindowScroll } from '@mantine/hooks'
 import React, { useCallback, useMemo } from 'react'
 import { activeSectionAtom, languageAtom, menuOpenAtom } from '../_stores/atoms'
 import { LANGUAGES_DISPLAY, Language } from '../_constants/language'
 
 function Icon() {
+  const [_, scrollTo] = useWindowScroll()
+
   return (
-    <Box component='a' href='#'>
+    <Box
+      component='button'
+      onClick={() => {
+        scrollTo({ y: 0 })
+      }}
+    >
       <Image
         w={48}
         h={48}
