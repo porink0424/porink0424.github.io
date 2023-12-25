@@ -4,7 +4,8 @@ import { Box, Space } from '@mantine/core'
 import useScrollSpy from 'react-use-scrollspy'
 import { useEffect, useRef } from 'react'
 import { useViewportSize } from '@mantine/hooks'
-import { useAtomValue, useSetAtom } from 'jotai'
+import { useAtom, useSetAtom } from 'jotai'
+import { useSearchParams } from 'next/navigation'
 import SectionTop from './_components/sections/SectionTop'
 import { activeSectionAtom, languageAtom } from './_stores/atoms'
 import SectionAbout from './_components/sections/SectionAbout'
@@ -12,11 +13,23 @@ import SectionExperiences from './_components/sections/SectionExperiences'
 import SectionResearch from './_components/sections/SectionResearch'
 import SectionHobby from './_components/sections/SectionHobby'
 import ScrollToTopButton from './_components/ScrollToTopButton'
+import { LANGUAGES, Language } from './_constants/language'
+import { PARAMS } from './_constants/params'
 
 export default function Home() {
   const { height } = useViewportSize()
   const setActiveSection = useSetAtom(activeSectionAtom)
-  const language = useAtomValue(languageAtom)
+  const [language, setLanguage] = useAtom(languageAtom)
+  const searchParams = useSearchParams()
+
+  useEffect(() => {
+    if (searchParams.has(PARAMS.LANG)) {
+      const lang = searchParams.get(PARAMS.LANG)
+      if (Object.values(LANGUAGES).includes(lang as Language)) {
+        setLanguage(lang as Language)
+      }
+    }
+  }, [searchParams, setLanguage])
 
   const sectionRefs = [
     useRef<HTMLDivElement>(null),

@@ -19,8 +19,9 @@ import { useAtom, useAtomValue } from 'jotai'
 import { Language as LanguageIcon } from 'tabler-icons-react'
 import { useMediaQuery, useWindowScroll } from '@mantine/hooks'
 import React, { useCallback, useMemo } from 'react'
+import { useRouter } from 'next/navigation'
 import { activeSectionAtom, languageAtom, menuOpenAtom } from '../_stores/atoms'
-import { LANGUAGES_DISPLAY, Language } from '../_constants/language'
+import { LANGUAGES_DISPLAY } from '../_constants/language'
 
 function Icon() {
   const [_, scrollTo] = useWindowScroll()
@@ -44,7 +45,8 @@ function Icon() {
 }
 
 function LanguageButton() {
-  const [language, setLanguage] = useAtom(languageAtom)
+  const language = useAtomValue(languageAtom)
+  const router = useRouter()
 
   return useMemo(
     () => (
@@ -65,7 +67,7 @@ function LanguageButton() {
             <MenuItem
               key={languageKey}
               onClick={() => {
-                setLanguage(languageKey as Language)
+                router.push(`?lang=${languageKey}`)
               }}
             >
               {languageDisplay}
@@ -74,7 +76,7 @@ function LanguageButton() {
         </MenuDropdown>
       </Menu>
     ),
-    [language, setLanguage],
+    [language, router],
   )
 }
 
