@@ -113,7 +113,7 @@ export const SECTION_EXPERIENCES = {
       },
       {
         title: 'ML Engineer at Matsuo Institute Inc.',
-        period: '2023/07 ~ Present',
+        period: '2023/07 ~ 2024/01',
         content: 'I am developing a large language model (LLM).',
       },
       {
@@ -141,7 +141,7 @@ export const SECTION_EXPERIENCES = {
       },
       {
         title: '株式会社松尾研究所 MLエンジニア',
-        period: '2023/07 ~ 現在',
+        period: '2023/07 ~ 2024/01',
         content: '大規模言語モデル (LLM) の開発を行なっています。',
       },
       {
@@ -176,6 +176,12 @@ export const SECTION_EXPERIENCES = {
   personalProjects: {
     [LANGUAGES.EN]: [
       {
+        title:
+          'Development of an automatic dubbing system that retains the original essence of Japanese anime',
+        period: '',
+        content: `I am developing a system that can automatically generate a dubbed version of an anime that retains the original essence of the Japanese version. This project has been adopted by the [Kakusei Project](${LINK.KAKUSEI}) of AIST and [TODAI TO TEXAS](${LINK.TTT}) of the University of Tokyo.`,
+      },
+      {
         title: 'Puyo Puyo Tetris AI',
         period: '',
         content: `I created an AI that runs in the "Puyo Puyo Tetris" game with my university classmates. It works as follows: Information extraction by reading memory → Movement decision by rule-based algorithm → Input via a virtual controller. [(Source Code)](${LINK.PYTRIS})`,
@@ -192,6 +198,11 @@ export const SECTION_EXPERIENCES = {
       },
     ],
     [LANGUAGES.JP]: [
+      {
+        title: '日本語版の世界観を崩さないアニメの自動吹き替えシステムの開発',
+        period: '',
+        content: `大学の学科同期と一緒に、日本語版の世界観をそのまま引き継いだ翻訳版アニメを、自動で生成できるシステムの開発を行っています。本プロジェクトは、産総研の [「覚醒」プロジェクト](${LINK.KAKUSEI})、東京大学の [TODAI TO TEXAS](${LINK.TTT}) に採択されています。`,
+      },
       {
         title: 'ぷよぷよテトリスAI',
         period: '',
@@ -212,6 +223,11 @@ export const SECTION_EXPERIENCES = {
   educationalProjects: {
     [LANGUAGES.EN]: [
       {
+        title: '100 Program Alumni Mentor',
+        period: '2024/01 ~ Present',
+        content: `I am a finalist in the first cohort of [100 Program](${LINK.HUNDRED_PROGRAM}) and am currently working as an alumni mentor.`,
+      },
+      {
         title: 'Teaching Assistant for "Complexity Theory Exercise"',
         period: '2023/10 ~ Present',
         content: '',
@@ -223,6 +239,11 @@ export const SECTION_EXPERIENCES = {
       },
     ],
     [LANGUAGES.JP]: [
+      {
+        title: '100 Program アラムナイ・メンター',
+        period: '2024/01 ~ 現在',
+        content: `[100 Program](${LINK.HUNDRED_PROGRAM})の1期ファイナリストであり、現在はアラムナイ・メンターとして活動しています。`,
+      },
       {
         title: '計算量理論演習のTA',
         period: '2023/10 ~ 現在',

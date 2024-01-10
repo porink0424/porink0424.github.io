@@ -20,4 +20,7 @@ export const LINK = {
   JSAI_2023_PAPER:
     'https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_4H2OS6a03/_article/-char/ja',
   NLP_2023_PAPER: 'https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P9-5.pdf',
+  KAKUSEI: 'https://kakusei.aist.go.jp/',
+  TTT: 'https://todaitotexas.com/',
+  HUNDRED_PROGRAM: 'https://100program.jp/',
 } as const
