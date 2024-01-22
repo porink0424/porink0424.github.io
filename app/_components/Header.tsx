@@ -33,13 +33,7 @@ function Icon() {
         scrollTo({ y: 0 })
       }}
     >
-      <Image
-        w={48}
-        h={48}
-        src='/icon.png'
-        alt='icon'
-        className='!rounded-full border border-gray'
-      />
+      <Image w={48} h={48} src='/top.jpg' alt='icon' className='!rounded-full border border-gray' />
     </Box>
   )
 }
