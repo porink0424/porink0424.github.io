@@ -22,6 +22,11 @@ function SnsIcons() {
           alt: 'x icon',
         },
         {
+          link: LINK.WANTEDLY,
+          src: '/wantedly.png',
+          alt: 'wantedly icon',
+        },
+        {
           link: LINK.LINKEDIN,
           src: '/linkedin.png',
           alt: 'linkedin icon',

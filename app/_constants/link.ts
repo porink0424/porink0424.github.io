@@ -2,6 +2,7 @@ export const LINK = {
   GITHUB: 'https://github.com/porink0424',
   QIITA: 'https://qiita.com/porink0424',
   TWITTER: 'https://twitter.com/daichi_myg2120',
+  WANTEDLY: 'https://www.wantedly.com/id/katou_daichi',
   LINKEDIN: 'https://www.linkedin.com/in/daichi-kato-425813275/',
   PFN_BLOG: 'https://tech.preferred.jp/ja/blog/multi-camera-settings-application-for-4d-scan/',
   METALIFE: 'https://metalife.co.jp/',
