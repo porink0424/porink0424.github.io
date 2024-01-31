@@ -160,12 +160,22 @@ export const SECTION_EXPERIENCES = {
   partTimeJob: {
     [LANGUAGES.EN]: [
       {
+        title: 'Part-time engineer at Preferred Networks Inc.',
+        period: '2024/02 ~ Present',
+        content: '',
+      },
+      {
         title: 'Part-time job at Cygames Inc.',
         period: '2021/08 ~ (Leave of absence now)',
         content: '',
       },
     ],
     [LANGUAGES.JP]: [
+      {
+        title: '株式会社Preferred Networks パートタイムエンジニア',
+        period: '2024/02 ~ 現在',
+        content: '',
+      },
       {
         title: '株式会社Cygames アルバイト',
         period: '2021/08 ~ (休職中)',
