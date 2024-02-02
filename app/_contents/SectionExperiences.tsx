@@ -162,7 +162,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: 'Part-time engineer at Preferred Networks Inc.',
         period: '2024/02 ~ Present',
-        content: '',
+        content: `I am involved in the development of [Optuna](${LINK.OPTIUNA}) and [Optuna-Dashboard](${LINK.OPTUNA_DASHBOARD}).`,
       },
       {
         title: 'Part-time job at Cygames Inc.',
@@ -174,7 +174,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: '株式会社Preferred Networks パートタイムエンジニア',
         period: '2024/02 ~ 現在',
-        content: '',
+        content: `[Optuna](${LINK.OPTIUNA}), [Optuna-Dashboard](${LINK.OPTUNA_DASHBOARD})の開発に携わっています。`,
       },
       {
         title: '株式会社Cygames アルバイト',

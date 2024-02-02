@@ -24,4 +24,6 @@ export const LINK = {
   KAKUSEI: 'https://kakusei.aist.go.jp/',
   TTT: 'https://todaitotexas.com/',
   HUNDRED_PROGRAM: 'https://100program.jp/',
+  OPTIUNA: 'https://github.com/optuna/optuna',
+  OPTUNA_DASHBOARD: 'https://github.com/optuna/optuna-dashboard',
 } as const
