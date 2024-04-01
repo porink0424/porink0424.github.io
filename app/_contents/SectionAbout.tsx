@@ -5,12 +5,12 @@ export const SECTION_ABOUT = {
   profile: {
     [LANGUAGES.EN]: [
       '**Name** : Daichi Kato (加藤 大地)',
-      '**Affiliation** : Department of Computer Science, Graduate School of Information Science and Technology, The University of Tokyo, Master 1st',
+      '**Affiliation** : Department of Computer Science, Graduate School of Information Science and Technology, The University of Tokyo, Master 2nd',
       '**Major** : Natural Language Processing (NLP)',
     ],
     [LANGUAGES.JP]: [
       '名前 : 加藤 大地 (Daichi Kato)',
-      '所属 : 東京大学 情報理工学系研究科 コンピュータ科学専攻 修士1年',
+      '所属 : 東京大学 情報理工学系研究科 コンピュータ科学専攻 修士2年',
       '専攻 : 自然言語処理 (NLP)',
     ],
   },
