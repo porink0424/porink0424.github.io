@@ -81,7 +81,7 @@ export const SECTION_ABOUT = {
       },
       {
         title: 'MISC:',
-        items: ['TOEFL : 92', 'Applied Information Technology Engineer Examination (2023/06)'],
+        items: ['Applied Information Technology Engineer Examination (2023/06)'],
       },
     ],
     [LANGUAGES.JP]: [
@@ -105,7 +105,7 @@ export const SECTION_ABOUT = {
       },
       {
         title: 'その他',
-        items: ['TOEFL : 92', '応用情報技術者試験 (2023/06)'],
+        items: ['応用情報技術者試験 (2023/06)'],
       },
     ],
   },

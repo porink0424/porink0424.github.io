@@ -127,6 +127,11 @@ export const SECTION_EXPERIENCES = {
         content:
           'I participated in a two-week short-term internship and joined the front-end development team to work on practical tasks.\n・System replacement of a website\n・Participation in both internal and external meetings\n・Webview implementation for a new app',
       },
+      {
+        title: 'Infrastructure Engineer at PKSHA Technology Inc.',
+        period: '2024/03 ~ 2024/04',
+        content: '',
+      },
     ],
     [LANGUAGES.JP]: [
       {
@@ -155,6 +160,11 @@ export const SECTION_EXPERIENCES = {
         content:
           '2週間の短期インターンに参加し、フロントエンドサイドの開発チームに参加して、実務に取り組みました。\n・Webサイトのシステムリプレース\n・内部・外部のミーティング参加\n・新規アプリのWebView実装',
       },
+      {
+        title: '株式会社 PKSHA Technology インフラエンジニア',
+        period: '2024/03 ~ 2024/04',
+        content: '',
+      },
     ],
   },
   partTimeJob: {
@@ -166,7 +176,7 @@ export const SECTION_EXPERIENCES = {
       },
       {
         title: 'Part-time job at Cygames Inc.',
-        period: '2021/08 ~ (Leave of absence now)',
+        period: '2021/08 ~ 2024/02',
         content: '',
       },
     ],
@@ -178,7 +188,7 @@ export const SECTION_EXPERIENCES = {
       },
       {
         title: '株式会社Cygames アルバイト',
-        period: '2021/08 ~ (休職中)',
+        period: '2021/08 ~ 2024/02',
         content: '',
       },
     ],
