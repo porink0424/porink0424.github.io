@@ -243,13 +243,13 @@ export const SECTION_EXPERIENCES = {
   educationalProjects: {
     [LANGUAGES.EN]: [
       {
-        title: '100 Program Alumni Mentor',
-        period: '2024/01 ~ Present',
-        content: `I am a finalist in the first cohort of [100 Program](${LINK.HUNDRED_PROGRAM}) and am currently working as an alumni mentor.`,
+        title: '100 Program Alumni Mentor (5th period)',
+        period: '2024/01 ~ 2024/03',
+        content: `I was a finalist in the 1st period of [100 Program](${LINK.HUNDRED_PROGRAM}) and worked as an alumni mentor in the 5th period.`,
       },
       {
         title: 'Teaching Assistant for "Complexity Theory Exercise"',
-        period: '2023/10 ~ Present',
+        period: '2023/10 ~ 2024/01',
         content: '',
       },
       {
@@ -261,12 +261,12 @@ export const SECTION_EXPERIENCES = {
     [LANGUAGES.JP]: [
       {
         title: '100 Program アラムナイ・メンター',
-        period: '2024/01 ~ 現在',
-        content: `[100 Program](${LINK.HUNDRED_PROGRAM})の1期ファイナリストであり、現在はアラムナイ・メンターとして活動しています。`,
+        period: '2024/01 ~ 2024/03',
+        content: `[100 Program](${LINK.HUNDRED_PROGRAM})の1期ファイナリストであり、5期ではアラムナイ・メンターとして活動しました。`,
       },
       {
         title: '計算量理論演習のTA',
-        period: '2023/10 ~ 現在',
+        period: '2023/10 ~ 2024/01',
         content: '',
       },
       {
