@@ -14,7 +14,7 @@ function ScrollToTop() {
       <ActionIcon
         variant='filled'
         size='xl'
-        className='!fixed bottom-6 right-6 z-50 !bg-orange-400'
+        className='!fixed bottom-6 right-6 z-50'
         onClick={() => {
           scrollTo({ y: 0 })
         }}
