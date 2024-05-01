@@ -40,8 +40,6 @@ and, output will be in `./out` directory.
 
 ## TODO
 
-- dark mode 追加
-- 簡単にSEO
 - cssの整理
   - importantをなくすなど
 - font変更？

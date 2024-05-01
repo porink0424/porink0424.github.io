@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
     <>
-      <Box maw={720} className='!mx-[2%] md:!mx-auto'>
+      <Box maw={720} className='mx-[2%] md:mx-auto'>
         <SectionTop />
         <Space h={60} />
         <SectionAbout sectionRef={sectionRefs[0]} language={language} />

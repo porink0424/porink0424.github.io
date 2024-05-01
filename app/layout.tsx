@@ -29,8 +29,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta charSet='utf-8' />
         <ColorSchemeScript />
-      </head>
-      <head>
         <meta property='og:site_name' content="Daichi Kato's Portfolio" />
         <meta property='og:title' content="Daichi Kato's Portfolio" />
         <meta property='og:url' content='https://porink0424.github.io/' />
