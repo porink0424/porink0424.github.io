@@ -114,7 +114,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: 'ML Engineer at Matsuo Institute Inc.',
         period: '2023/07 ~ 2024/01',
-        content: 'I am developing a large language model (LLM).',
+        content: 'I joined the development of a large language model (LLM).',
       },
       {
         title: 'Full Stack Engineer at Bend Inc.',
@@ -147,7 +147,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: '株式会社松尾研究所 MLエンジニア',
         period: '2023/07 ~ 2024/01',
-        content: '大規模言語モデル (LLM) の開発を行なっています。',
+        content: '大規模言語モデル (LLM) に関する開発を行いました。。',
       },
       {
         title: '株式会社ベンド フルスタックエンジニア',
