@@ -11,7 +11,6 @@ export const LINK = {
   PYTRIS: 'https://github.com/porink0424/py-tris',
   PYCAML: 'https://github.com/porink0424/pycaml',
   MANABITIMES: 'https://manabitimes.jp/',
-  MANABITIMES_PHYSICS: 'https://manabitimes.jp/physics',
   SHIKAKUTIMES: 'https://shikakutimes.jp/',
   DCC: 'https://github.com/porink0424/dcc',
   YANS_2023_LINK: 'https://twitter.com/yans_official/status/1697173190198587895',

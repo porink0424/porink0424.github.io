@@ -12,7 +12,7 @@ export const SECTION_HOBBY = {
       },
       {
         title: 'Physics',
-        content: `My favorite subject in high school was physics. I was fascinated by the fact that the equations that form the basis for predicting natural phenomena in this world can be expressed in a very concise way using mathematics (e.g., Newton's "equation of motion" and Maxwell's "equation of electromagnetism").\n\nAfter entering university, I continue to read physics books as a hobby and listen to lectures whenever possible. My favorite is "general theory of relativity." When I was an undergraduate, I was a writer for high school and university physics (I was an ["Introduction to Theoretical Physics for High School Students"](${LINK.MANABITIMES_PHYSICS}) founder). I hope to write articles on physics again someday.`,
+        content: `My favorite subject in high school was physics. I was fascinated by the fact that the equations that form the basis for predicting natural phenomena in this world can be expressed in a very concise way using mathematics (e.g., Newton's "equation of motion" and Maxwell's "equation of electromagnetism").\n\nAfter entering university, I continue to read physics books as a hobby and listen to lectures whenever possible. My favorite is "general theory of relativity."`,
       },
       {
         title: 'Handball, Soccer',
@@ -32,7 +32,7 @@ export const SECTION_HOBBY = {
       },
       {
         title: '物理学',
-        content: `高校時代、一番好きだった科目は物理でした。この世の自然現象の予測の根拠となる式が、数学という道具を使うことで非常に簡潔な形式で表現できる（力学の「運動方程式」、電磁気学の「マクスウェル方程式」など）ことに、すごくロマンを感じていました。\n\n大学に入ってからも、趣味として気長に物理学の本を読んだり、機会があれば講義を聞いたりしています。一般相対性理論が一番好きです。学部の頃は、高校・大学物理のライターをやっていました（[「高校生から味わう理論物理入門」](${LINK.MANABITIMES_PHYSICS})の創設者です）。またいつか再開できたらいいなと思っています。`,
+        content: `高校時代、一番好きだった科目は物理でした。この世の自然現象の予測の根拠となる式が、数学という道具を使うことで非常に簡潔な形式で表現できる（力学の「運動方程式」、電磁気学の「マクスウェル方程式」など）ことに、すごくロマンを感じていました。\n\n大学に入ってからも、趣味として気長に物理学の本を読んだり、機会があれば講義を聞いたりしています。一般相対性理論が一番好きです。`,
       },
       {
         title: 'ハンドボール・サッカー',
