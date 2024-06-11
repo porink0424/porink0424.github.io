@@ -25,7 +25,7 @@ export const SECTION_RESEARCH = {
       {
         title: 'International Conference (Refereed)',
         contents: [
-          `**Daichi Kato**, Ryo Ueda, Jason Naradowsky, Yusuke Miyao.\n"Emergent Communication with Stack-Based Agents"\nCogSci2024. (TBA)`,
+          `**Daichi Kato**, Ryo Ueda, Jason Naradowsky, Yusuke Miyao.\n"Emergent Communication with Stack-Based Agents"\nCogSci2024. [(paper)](${LINK.COGSCI_2024_PAPER})`,
         ],
       },
       {
@@ -42,7 +42,7 @@ export const SECTION_RESEARCH = {
       {
         title: '国際学会 (査読あり)',
         contents: [
-          `**Daichi Kato**, Ryo Ueda, Jason Naradowsky, Yusuke Miyao.\n"Emergent Communication with Stack-Based Agents"\nCogSci2024. (TBA)`,
+          `**Daichi Kato**, Ryo Ueda, Jason Naradowsky, Yusuke Miyao.\n"Emergent Communication with Stack-Based Agents"\nCogSci2024. [(paper)](${LINK.COGSCI_2024_PAPER})`,
         ],
       },
       {
