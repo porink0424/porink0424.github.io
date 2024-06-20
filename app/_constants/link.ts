@@ -22,6 +22,8 @@ export const LINK = {
   NLP_2023_PAPER: 'https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P9-5.pdf',
   NLP_2024_PAPER: 'https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/E7-6.pdf',
   COGSCI_2024_PAPER: 'https://escholarship.org/uc/item/25s574wc',
+  JSAI_2024_PAPER:
+    'https://www.jstage.jst.go.jp/article/pjsai/JSAI2024/0/JSAI2024_4A1GS603/_article/-char/ja',
   KAKUSEI: 'https://kakusei.aist.go.jp/',
   TTT: 'https://todaitotexas.com/',
   HUNDRED_PROGRAM: 'https://100program.jp/',
