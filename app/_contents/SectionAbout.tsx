@@ -1,5 +1,6 @@
 import { BrandCpp, Mist, School, Terminal2 } from 'tabler-icons-react'
 import { LANGUAGES } from '../_constants/language'
+import { LINK } from '../_constants/link'
 
 export const SECTION_ABOUT = {
   profile: {
@@ -81,7 +82,11 @@ export const SECTION_ABOUT = {
       },
       {
         title: 'MISC:',
-        items: ['Applied Information Technology Engineer Examination (2023/06)'],
+        items: [
+          'TOEFL iBT: 92 (2022/4/23)',
+          'Applied Information Technology Engineer Examination (2023/06)',
+          `[Mitou Innovator](${LINK.MITOU_INNOVATOR}) (2024-2025, adopted in Mitou Advanced Project)`,
+        ],
       },
     ],
     [LANGUAGES.JP]: [
@@ -105,7 +110,11 @@ export const SECTION_ABOUT = {
       },
       {
         title: 'その他',
-        items: ['応用情報技術者試験 (2023/06)'],
+        items: [
+          'TOEFL iBT: 92 (2022/4/23)',
+          '応用情報技術者試験 (2023/06)',
+          `[未踏イノベータ](${LINK.MITOU_INNOVATOR}) (2024-2025, 未踏アドバンスト事業採択)`,
+        ],
       },
     ],
   },

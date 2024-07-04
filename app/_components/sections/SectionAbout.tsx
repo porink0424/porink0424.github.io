@@ -64,7 +64,7 @@ function SectionAbout({ language, sectionRef }: Props) {
             </ListItem>
             <List withPadding className='!ml-7'>
               {items.map((item, itemIndex) => (
-                <ListItem key={itemIndex}>{item}</ListItem>
+                <ListItem key={itemIndex}>{parseText(item)}</ListItem>
               ))}
             </List>
           </List>

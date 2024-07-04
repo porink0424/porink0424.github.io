@@ -29,4 +29,6 @@ export const LINK = {
   HUNDRED_PROGRAM: 'https://100program.jp/',
   OPTIUNA: 'https://github.com/optuna/optuna',
   OPTUNA_DASHBOARD: 'https://github.com/optuna/optuna-dashboard',
+  MITOU_INNOVATOR: 'https://scrapbox.io/mitou-meikan/%E5%8A%A0%E8%97%A4_%E5%A4%A7%E5%9C%B0',
+  MITOU_ADVANCED: 'https://www.ipa.go.jp/jinzai/mitou/advanced/2024/gaiyou-mr-1.html',
 } as const

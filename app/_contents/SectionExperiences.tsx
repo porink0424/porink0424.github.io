@@ -199,7 +199,7 @@ export const SECTION_EXPERIENCES = {
         title:
           'Development of an automatic dubbing system that retains the original essence of Japanese anime',
         period: '',
-        content: `I am developing a system that can automatically generate a dubbed version of an anime that retains the original essence of the Japanese version. This project has been adopted by the [Kakusei Project](${LINK.KAKUSEI}) of AIST and [TODAI TO TEXAS](${LINK.TTT}) of the University of Tokyo.`,
+        content: `I am developing a system that can automatically generate a dubbed version of an anime that retains the original essence of the Japanese version. This project has been adopted by the [Kakusei Project](${LINK.KAKUSEI}) of AIST, [TODAI TO TEXAS](${LINK.TTT}) of the University of Tokyo, and [Mitou Advanced Project](${LINK.MITOU_ADVANCED}) of IPA.`,
       },
       {
         title: 'Puyo Puyo Tetris AI',
@@ -221,7 +221,7 @@ export const SECTION_EXPERIENCES = {
       {
         title: '日本語版の世界観を崩さないアニメの自動吹き替えシステムの開発',
         period: '',
-        content: `大学の学科同期と一緒に、日本語版の世界観をそのまま引き継いだ翻訳版アニメを、自動で生成できるシステムの開発を行っています。本プロジェクトは、産総研の [「覚醒」プロジェクト](${LINK.KAKUSEI})、東京大学の [TODAI TO TEXAS](${LINK.TTT}) に採択されています。`,
+        content: `大学の学科同期と一緒に、日本語版の世界観をそのまま引き継いだ翻訳版アニメを、自動で生成できるシステムの開発を行っています。本プロジェクトは、産総研の [「覚醒」プロジェクト](${LINK.KAKUSEI})、東京大学の [TODAI TO TEXAS](${LINK.TTT})、IPAの [未踏アドバンスト事業](${LINK.MITOU_ADVANCED}) に採択されています。`,
       },
       {
         title: 'ぷよぷよテトリスAI',
