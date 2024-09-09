@@ -243,9 +243,9 @@ export const SECTION_EXPERIENCES = {
   educationalProjects: {
     [LANGUAGES.EN]: [
       {
-        title: '100 Program Alumni Mentor (5th period)',
-        period: '2024/01 ~ 2024/03',
-        content: `I was a finalist in the 1st period of [100 Program](${LINK.HUNDRED_PROGRAM}) and worked as an alumni mentor in the 5th period.`,
+        title: '100 Program Alumni Mentor (5th & 6th period)',
+        period: '',
+        content: `I was a finalist in the 1st period of [100 Program](${LINK.HUNDRED_PROGRAM}) and worked as an alumni mentor in the 5th & 6th period.`,
       },
       {
         title: 'Teaching Assistant for "Complexity Theory Exercise"',
@@ -260,9 +260,9 @@ export const SECTION_EXPERIENCES = {
     ],
     [LANGUAGES.JP]: [
       {
-        title: '100 Program アラムナイ・メンター',
-        period: '2024/01 ~ 2024/03',
-        content: `[100 Program](${LINK.HUNDRED_PROGRAM})の1期ファイナリストであり、5期ではアラムナイ・メンターとして活動しました。`,
+        title: '100 Program 5期・6期アラムナイ・メンター',
+        period: '',
+        content: `[100 Program](${LINK.HUNDRED_PROGRAM})の1期ファイナリストであり、5期、6期ではアラムナイ・メンターとして活動しました。`,
       },
       {
         title: '計算量理論演習のTA',
@@ -280,9 +280,15 @@ export const SECTION_EXPERIENCES = {
     [LANGUAGES.EN]: [
       {
         title:
+          'The 19th Symposium of Young Researcher Association for NLP Studies (YANS) 2024 (Excellence Award Winner)',
+        period: '2024/09',
+        content: `At YANS2024, I participated in a senryu generation hackathon using GPT-4o-mini. I won the Excellence Award for the second year in a row. [(link)](${LINK.YANS_2024_LINK})`,
+      },
+      {
+        title:
           "The 18th Symposium of Young Researcher Association for NLP Studies (YANS) 2023 (Excellence Award & Jury's Special Award Winner)",
         period: '2023/08',
-        content: `At YANS2023, we participated in a hackathon to develop a web application using the OpenAI API. We won two awards, the Excellence Award and the Jury's Special Award. [(link)](${LINK.YANS_2023_LINK})`,
+        content: `At YANS2023, I participated in a hackathon to develop a web application using the OpenAI API. We won two awards, the Excellence Award and the Jury's Special Award. [(link)](${LINK.YANS_2023_LINK})`,
       },
       {
         title: 'Benesse EdTech Hackathon (Audience Award Winner)',
@@ -291,6 +297,11 @@ export const SECTION_EXPERIENCES = {
       },
     ],
     [LANGUAGES.JP]: [
+      {
+        title: 'NLP若手の会(YANS)2024ハッカソン（優秀賞）',
+        period: '2024/09',
+        content: `YANS2024において、GPT-4o-miniを用いた川柳生成ハッカソンに参加しました。去年に引き続き、優秀賞をいただきました。[(リンク)](${LINK.YANS_2024_LINK})`,
+      },
       {
         title: 'NLP若手の会(YANS)2023ハッカソン（優秀賞・審査員特別賞）',
         period: '2023/08',
