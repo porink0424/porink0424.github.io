@@ -243,9 +243,9 @@ export const SECTION_EXPERIENCES = {
   educationalProjects: {
     [LANGUAGES.EN]: [
       {
-        title: '100 Program Alumni Mentor (5th & 6th period)',
+        title: '100 Program Alumni Mentor (5th, 6th, & 7th period)',
         period: '',
-        content: `I was a finalist in the 1st period of [100 Program](${LINK.HUNDRED_PROGRAM}) and worked as an alumni mentor in the 5th & 6th period.`,
+        content: `I was a finalist in the 1st period of [100 Program](${LINK.HUNDRED_PROGRAM}) and worked as an alumni mentor in the 5th, 6th, and 7th period.`,
       },
       {
         title: 'Teaching Assistant for "Complexity Theory Exercise"',
@@ -260,9 +260,9 @@ export const SECTION_EXPERIENCES = {
     ],
     [LANGUAGES.JP]: [
       {
-        title: '100 Program 5期・6期アラムナイ・メンター',
+        title: '100 Program 5期・6期・7期アラムナイ・メンター',
         period: '',
-        content: `[100 Program](${LINK.HUNDRED_PROGRAM})の1期ファイナリストであり、5期、6期ではアラムナイ・メンターとして活動しました。`,
+        content: `[100 Program](${LINK.HUNDRED_PROGRAM})の1期ファイナリストであり、5期、6期、7期ではアラムナイ・メンターとして活動しました。`,
       },
       {
         title: '計算量理論演習のTA',
