@@ -31,6 +31,7 @@ export const SECTION_RESEARCH = {
       {
         title: 'Domestic Conference (Non-refereed)',
         contents: [
+          `**Daichi Kato**, Ryo Ueda, Yusuke Miyao.\n「メッセージの階層構造を把握するための parsing action がランダムではないのはなぜか？」\nNLP2025. [(paper)](${LINK.NLP_2025_PAPER})`,
           `Masatoshi Otake, **Daichi Kato**, Yuto Nozaki, Satoshi Hirooka, Yusuke Miyao, Asako Kanezaki.\n"Construction of a Video Translation Dataset with Added Character Personality and Interpersonal Relationship Information"\nJSAI2024. [(paper)](${LINK.JSAI_2024_PAPER})`,
           `**Daichi Kato**, Ryo Ueda, Yusuke Miyao.\n「RL-SPINNを用いた創発言語の汎化性能の評価」\nNLP2024. [(paper)](${LINK.NLP_2024_PAPER})`,
           `**Daichi Kato**, Ryo Ueda, Yusuke Miyao.\n"Creole Simplicity and Compositionality of the Languages Arising in a Plain Emergent Language Contact Model"\nJSAI2023. [(paper)](${LINK.JSAI_2023_PAPER})`,
@@ -48,6 +49,7 @@ export const SECTION_RESEARCH = {
       {
         title: '国内学会 (査読なし)',
         contents: [
+          `**加藤大地**, 上田亮, 宮尾祐介.\n「メッセージの階層構造を把握するための parsing action がランダムではないのはなぜか？」\n言語処理学会第31回年次大会(NLP2025). [(paper)](${LINK.NLP_2025_PAPER})`,
           `大嶽 匡俊, **加藤大地**, 野崎 雄斗, 廣岡 聖司, 宮尾 祐介, 金崎 朝子.\n「キャラクターの性格と人間関係情報を付加した映像翻訳データセットの構築」\n人工知能学会第38回全国大会(JSAI2024). [(paper)](${LINK.JSAI_2024_PAPER})`,
           `**加藤大地**, 上田亮, 宮尾祐介.\n「RL-SPINNを用いた創発言語の汎化性能の評価」\n言語処理学会第30回年次大会(NLP2024). [(paper)](${LINK.NLP_2024_PAPER})`,
           `**加藤大地**, 上田亮, 宮尾祐介.\n「簡素な創発言語接触モデルで生じる言語のクレオール単純性と構成性」\n人工知能学会第37回全国大会(JSAI2023). [(paper)](${LINK.JSAI_2023_PAPER})`,

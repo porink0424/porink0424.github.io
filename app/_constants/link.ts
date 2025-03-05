@@ -22,6 +22,7 @@ export const LINK = {
     'https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_4H2OS6a03/_article/-char/ja',
   NLP_2023_PAPER: 'https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P9-5.pdf',
   NLP_2024_PAPER: 'https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/E7-6.pdf',
+  NLP_2025_PAPER: 'https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/D5-2.pdf',
   COGSCI_2024_PAPER: 'https://escholarship.org/uc/item/25s574wc',
   JSAI_2024_PAPER:
     'https://www.jstage.jst.go.jp/article/pjsai/JSAI2024/0/JSAI2024_4A1GS603/_article/-char/ja',
