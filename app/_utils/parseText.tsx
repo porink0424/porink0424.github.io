@@ -9,17 +9,17 @@ const reflectBrAndBold = (text: string) => {
     if (text[i] === '\n') {
       if (tmpText.length > 0)
         ret.push(
-          <Text component='span' key={i - 1}>
+          <Text component='span' key={`reflectBrAndBold-${i - 1}`}>
             {tmpText}
           </Text>,
         )
-      ret.push(<br key={i} />)
+      ret.push(<br key={`reflectBrAndBold-${i}`} />)
       tmpText = ''
       i += 1
     } else if (text[i] === '*' && text[i + 1] === '*') {
       if (tmpText.length > 0)
         ret.push(
-          <Text component='span' key={i - 1}>
+          <Text component='span' key={`reflectBrAndBold-${i - 1}`}>
             {tmpText}
           </Text>,
         )
@@ -31,7 +31,7 @@ const reflectBrAndBold = (text: string) => {
       }
       if (tmpText.length > 0)
         ret.push(
-          <Text component='span' fw={700} key={i - 1}>
+          <Text component='span' fw={700} key={`reflectBrAndBold-${i - 1}`}>
             {tmpText}
           </Text>,
         )
@@ -44,7 +44,7 @@ const reflectBrAndBold = (text: string) => {
   }
   if (tmpText.length > 0)
     ret.push(
-      <Text component='span' key={i}>
+      <Text component='span' key={`reflectBrAndBold-${i}`}>
         {tmpText}
       </Text>,
     )
@@ -68,14 +68,14 @@ export const parseText = (text: string) => {
   Array.from(matches).forEach((match) => {
     if (match.index === undefined) return
     ret.push(
-      <Text key={index} component='span'>
+      <Text key={`parseText-1-${index}`} component='span'>
         {reflectBrAndBold(text.slice(index, match.index))}
       </Text>,
     )
     index = match.index + match[0].length
     ret.push(
       <Text
-        key={match.index}
+        key={`parseText-2-${match.index}`}
         component='a'
         td='underline'
         c='blue'
@@ -89,7 +89,7 @@ export const parseText = (text: string) => {
   })
   if (text.slice(index).length > 0)
     ret.push(
-      <Text key={index} component='span'>
+      <Text key={`parseText-3-${index}`} component='span'>
         {reflectBrAndBold(text.slice(index))}
       </Text>,
     )
