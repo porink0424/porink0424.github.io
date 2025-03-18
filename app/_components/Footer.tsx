@@ -26,7 +26,7 @@ function Footer() {
             </Box>
 
             <Text size='sm' className='text-center'>
-              © Copyright 2023-2024 Daichi Kato.
+              © Copyright 2023-2025 Daichi Kato.
             </Text>
           </Stack>
         </Box>

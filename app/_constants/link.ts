@@ -1,8 +1,7 @@
 export const LINK = {
   GITHUB: 'https://github.com/porink0424',
   QIITA: 'https://qiita.com/porink0424',
-  TWITTER: 'https://twitter.com/daichi_myg2120',
-  WANTEDLY: 'https://www.wantedly.com/id/katou_daichi',
+  TWITTER: 'https://x.com/porink0424',
   LINKEDIN: 'https://www.linkedin.com/in/daichi-kato-425813275/',
   PFN_BLOG: 'https://tech.preferred.jp/ja/blog/multi-camera-settings-application-for-4d-scan/',
   METALIFE: 'https://metalife.co.jp/',
@@ -23,6 +22,7 @@ export const LINK = {
   NLP_2023_PAPER: 'https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P9-5.pdf',
   NLP_2024_PAPER: 'https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/E7-6.pdf',
   NLP_2025_PAPER: 'https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/D5-2.pdf',
+  NLP_2025_COMMITTEE_AWARD: 'https://www.anlp.jp/nlp2025/award.html#committee',
   COGSCI_2024_PAPER: 'https://escholarship.org/uc/item/25s574wc',
   JSAI_2024_PAPER:
     'https://www.jstage.jst.go.jp/article/pjsai/JSAI2024/0/JSAI2024_4A1GS603/_article/-char/ja',
