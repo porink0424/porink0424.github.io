@@ -26,7 +26,7 @@ function SectionTop() {
               Daichi Kato
             </Title>
             <Text className='!text-sm sm:!text-base text-center sm:text-left'>
-              M2 Student at The University of Tokyo, Japan
+              Software Engineer at Preferred Networks, Tokyo
             </Text>
           </Box>
         </Box>
