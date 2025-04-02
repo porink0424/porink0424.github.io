@@ -6,13 +6,11 @@ export const SECTION_ABOUT = {
   profile: {
     [LANGUAGES.EN]: [
       '**Name** : Daichi Kato (加藤 大地)',
-      '**Affiliation** : Department of Computer Science, Graduate School of Information Science and Technology, The University of Tokyo, Master 2nd',
-      '**Major** : Natural Language Processing (NLP)',
+      '**Affiliation** : Preferred Networks, Inc., Tokyo, Japan',
     ],
     [LANGUAGES.JP]: [
       '名前 : 加藤 大地 (Daichi Kato)',
-      '所属 : 東京大学 情報理工学系研究科 コンピュータ科学専攻 修士2年',
-      '専攻 : 自然言語処理 (NLP)',
+      '所属 : Preferred Networks',
     ],
   },
   history: {
@@ -32,7 +30,12 @@ export const SECTION_ABOUT = {
       {
         title:
           'Department of Computer Science, Graduate School of Information Science and Technology, The University of Tokyo, Japan',
-        period: '2023/04 ~ Present',
+        period: '2023/04 ~ 2025/03',
+      },
+      {
+        title:
+          'Preferred Networks, Inc., Tokyo, Japan',
+        period: '2025/04 ~ Present',
       },
     ],
     [LANGUAGES.JP]: [
@@ -50,7 +53,11 @@ export const SECTION_ABOUT = {
       },
       {
         title: '東京大学大学院 情報理工学系研究科コンピュータ科学専攻',
-        period: '2023/04 ~ 現在',
+        period: '2023/04 ~ 2025/03',
+      },
+      {
+        title: 'Preferred Networks',
+        period: '2025/04 ~ 現在',
       },
     ],
   },
